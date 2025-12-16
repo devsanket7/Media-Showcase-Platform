@@ -1,0 +1,42 @@
+ body {
+      background-color: #0d1117;
+      color: white;
+    }
+
+    footer {
+      background-color: #161b22;
+    }
+    .carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0,0,0,0.5);
+  padding: 1rem;
+  border-radius: 10px;
+}
+#mainCarousel {
+  margin-top: 30px;
+}
+/* CARD HOVER EFFECT */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+/* image fade */
+.card-img-top {
+  transition: opacity 0.3s ease;
+}
+
+/* hover effect */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+
+.card:hover .card-img-top {
+  opacity: 0.6; /* transparency effect */
+}
+
